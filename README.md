@@ -9,7 +9,7 @@ For the subject data, the subjects are named via the subjectID variable.
 
 For the activities data, a function loops through the entire vector, and replaces the activity numbers with a description of the activity, given in the activity_labels.txt file from the UCI HAR files.
 
-For the measurements, the measurement data is subsetted by selecting all columns that have mean() and std() in their names. By using the fixed = TRUE parameter, the code is prevented from incorrectly selecting meanFreq() columns and angle(__mean) columns.
+For the measurements, the columns are named via the features.txt file that comes with the data set. This txt file has the description of each column of measurements. The measurement data is subsetted by selecting all columns that have mean() and std() in their names. By using the fixed = TRUE parameter, the code is prevented from incorrectly selecting meanFreq() columns and angle(__mean) columns.
 
 Using cbind, the three tables are combined into the activitysub data frame.
 
