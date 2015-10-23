@@ -1,0 +1,11 @@
+
+Activities:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+acc_test:
+sampled in fixed-width sliding windows of 2.56 sec and 50% overlap
